@@ -1,16 +1,35 @@
-import { Container, ContainerSlide} from './style'
+import { Container, Slider, SliderTrack, ImageContainer } from './style'
 import introGif from '../../assets/hand_intro.gif'
-import introCurly from './assets/introcurly.png'
+import curve from '../../assets/curve_line.svg'
+
 
 export const Intro = () =>{
     return(
-        <Container>
-            <div data-aos="fade-up" data-aos-duration="2000">
-              <img src={introGif} alt="waving-hand-gif" /> 
-            </div>
-            <ContainerSlide>
-                {/* <img src={props.introCurly} alt="intro" /> */}
-            </ContainerSlide>
-        </Container>
+            <Container>
+                <div data-aos="fade-up" data-aos-duration="2000">
+                    <button>
+                        <img src={introGif} alt="waving-hand-gif" /> 
+                    </button>
+                </div>
+                <Slider>
+                    <SliderTrack>
+                        <ImageContainer>
+                            <img src={curve} alt="curve line" />
+                        </ImageContainer>
+                        <ImageContainer>
+                            <img src={curve} alt="curve line" />
+                        </ImageContainer>
+                        <ImageContainer>
+                            <img src={curve} alt="curve line" />
+                        </ImageContainer>
+                        <ImageContainer>
+                            <img src={curve} alt="curve line" />
+                        </ImageContainer>
+                        <ImageContainer>
+                            <img src={curve} alt="curve line" />
+                        </ImageContainer>
+                    </SliderTrack>
+                </Slider>
+            </Container>
     )
 }

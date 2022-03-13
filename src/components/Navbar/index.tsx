@@ -2,19 +2,14 @@ import { Container,ContainerNavItems,NavbarItem, LogoPic }
 from './style';
 import logoPic from '../../assets/logopic.png';
 
-type NavbarProps = {
-   logopic: string
-}
-
 export const Navbar= () => {
     return(
         <Container>
             <LogoPic>
-                 <img src={logoPic} alt="ey"/>
+                 <img src={logoPic} alt="logo pic"/>
             </LogoPic>
             <ContainerNavItems>
-                    <NavbarItem>ABOUT</NavbarItem>
-                    <NavbarItem>STACK</NavbarItem>
+                    <NavbarItem>WORKS</NavbarItem>
                     <NavbarItem>CONTACT</NavbarItem>
             </ContainerNavItems>
         </Container>

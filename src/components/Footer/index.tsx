@@ -1,12 +1,15 @@
-import { Container, FooterItems} from './style'
+import { Container} from './style'
 
 export const Footer = () => {
     return(
         <Container>
-            <FooterItems>CONTACT ME</FooterItems>
-            <FooterItems>INSTAGRAM</FooterItems>
-            <FooterItems>GETTR</FooterItems>
-            <FooterItems>LINKEDIN</FooterItems>
+                <a href='https://www.instagram.com/micodes/' target="_blank" rel="noopener noreferrer">
+                    Instagram
+                </a>
+                <a href='https://www.instagram.com/micodes/' target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+                <p>powered by Coffee ☕️ 2022</p>
         </Container>
     )
 }

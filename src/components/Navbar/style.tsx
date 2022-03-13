@@ -1,24 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 2em;
+    padding: 1em;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    overflow:hidden;
+    @media (max-width:768px) {
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    }
 `
 export const ContainerNavItems = styled.div`
     display: flex;
     justify-content: flex-end;
     gap: 2em;
-    @media (max-width: 380px){
-        display:block
-    }
-    transition: transform 1s;
-
 `
 export const NavbarItem = styled.p`
     font-family: 'Gruppo', cursive;
-    color: #f4bd0b;
+    color: ${(props)=>props.theme.color.primary};
     display: flex;
     justify-content: flex-end;
     cursor: pointer;
@@ -26,12 +27,11 @@ export const NavbarItem = styled.p`
     transition: transform 1s;
     &:hover{
         text-shadow:0px 1px 2px white;
-        transform: translateY(40%);
+        transform: translateY(-30%);
     }
 `
 
 export const LogoPic = styled.div`
-    
     img{
         width: 50px;
     }
