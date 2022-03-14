@@ -1,13 +1,12 @@
-import styled,{ keyframes } from "styled-components";
+import styled from "styled-components";
 
 
 export const Container = styled.div`
-    height: 40vh;
+    height: 50vh;
     padding: 5em;
     display:flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 `
 export const TitleAndButtonContainer = styled.div`
     display: flex;
@@ -65,44 +64,5 @@ export const Form = styled.form`
             transform: translateY(5%);
             color:white
         }
-    }
-`
-export const SliderSection = styled.div`
-   display:flex;
-   align-items: center;
-   justify-content: center;
-   width:100%;
-   overflow: hidden;
-`
-
-export const Slider = styled.div`
-    height: 200px;
-    margin:0;
-    width: 80vw;
-    display:grid;
-    place-items: center;
-    overflow: hidden;
-    background-color:transparent;
-`
-export const scroll = keyframes`
-    0%{transform: translateX(0)}
-    100%{transform: translateX(-20vw)}
-`
-export const SliderTrack = styled.div`
-    display:flex;
-    align-items: center;
-    width: 100%;
-    background-color: transparent;
-    animation: ${scroll} 6s linear infinite
-`
-
-export const ImageContainer = styled.div`
-    height:200px;
-    width: 20vw;
-    padding:0;
-    display: flex;
-    align-items: center;
-    p{
-        color: white
     }
 `

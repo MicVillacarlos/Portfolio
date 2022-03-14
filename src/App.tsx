@@ -2,7 +2,6 @@ import { GLobalStyle } from "./style";
 import { ThemeProvider } from "styled-components"
 import { Navbar } from "./components/Navbar"
 import  First  from "./Pages/First"
-import Second from "./Pages/Second/Index";
 import defaultTheme from './theme/default'
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 
@@ -14,7 +13,7 @@ function App() {
             <Navbar/>
                 <Routes>
                   <Route path='/' element={<First/>} />
-                  <Route path='/works' element={<Second/>} />
+                  <Route path='/works' />
                 </Routes>
         </ThemeProvider>
     </BrowserRouter>

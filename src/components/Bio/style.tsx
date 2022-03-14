@@ -123,6 +123,7 @@ export const SliderSection = styled.div`
    justify-content: center;
    width:100%;
    overflow: hidden;
+
 `
 
 export const Slider = styled.div`

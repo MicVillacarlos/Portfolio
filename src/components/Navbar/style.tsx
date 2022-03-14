@@ -19,14 +19,11 @@ export const ContainerNavItems = styled.div`
 `
 export const NavbarItem = styled.p`
     font-family: 'Gruppo', cursive;
+    color: ${(props)=>props.theme.color.primary};
     display: flex;
     justify-content: flex-end;
     cursor: pointer;
 
-    a{
-        text-decoration:none;
-        color: ${(props)=>props.theme.color.primary};
-    }
     transition: transform 1s;
     &:hover{
         text-shadow:0px 1px 2px white;

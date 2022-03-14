@@ -5,7 +5,6 @@ import react from '../../assets/react.svg'
 import node from '../../assets/node_js.svg'
 import photoshop from '../../assets/photoshop.svg'
 import illustrator from '../../assets/illustrator.svg'
-import curve from '../../assets/curve_line.svg'
 
 export const Stack = () =>{
     return(
