@@ -1,21 +1,28 @@
 import { GLobalStyle } from "./style";
 import { ThemeProvider } from "styled-components"
 import { Navbar } from "./components/Navbar"
-import  First  from "./Pages/First"
+import { Intro } from './components/Intro'
+import { Bio } from './components/Bio'
+import { Stack } from './components/Stack'
+import { Footer } from "./components/Footer"
+import { Contact } from "./components/Contact"
+import { Works } from "./components/Works"
 import defaultTheme from './theme/default'
-import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <GLobalStyle/>
         <ThemeProvider theme={defaultTheme}>
             <Navbar/>
-              <Routes>
-                <Route path='/' element={<First/>} />
-              </Routes>
+            <Intro/>
+            <Bio/>
+            <Stack/>
+            <Works/>
+            <Contact/>
+            <Footer/>
         </ThemeProvider>
-    </BrowserRouter>
+    </div>
   );
 }
 export default App;
