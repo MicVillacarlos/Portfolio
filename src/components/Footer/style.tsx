@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    margin: 0 0 -2em 0;
+    margin: 0 0 0 0;
     padding-left:2em;
     padding-right:2em;
     background-color:${(props)=>props.theme.color.secondary};
@@ -33,7 +33,7 @@ export const Container = styled.div`
         font-family: ${(props)=>props.theme.font.secondary};
     }
 
-    @media (max-width:768px) {
+    @media (max-width: 768px) {
         flex-wrap:wrap;
         font-size: 0.7em;
     }

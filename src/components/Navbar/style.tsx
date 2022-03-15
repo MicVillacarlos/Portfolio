@@ -5,12 +5,13 @@ export const Container = styled.div`
     display:flex;
     justify-content: space-between;
     align-items: center;
-    overflow:hidden;
+    ;
     @media (max-width:768px) {
         display:flex;
         flex-direction: column;
         gap:10px;
     }
+    ;
 `
 export const ContainerNavItems = styled.div`
     display: flex;
@@ -34,7 +35,6 @@ export const NavbarItem = styled.p`
 export const LogoPic = styled.div`
     img{
         width: 50px;
-
         :hover{
             cursor: pointer;
         }

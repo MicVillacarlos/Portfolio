@@ -11,22 +11,20 @@ export const Stack = () =>{
         <Container>
         <Subcontainer>
             <h2 data-aos="fade-left" data-aos-duration="1000">Tech Stack</h2>
-            <StackContainer>
-                <CircleLogo data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1000">
+            <StackContainer  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1500">
+                <CircleLogo>
                     <img src={mongo} alt='mongoDb'/> <p>MongoDB</p>
                 </CircleLogo>
-                <CircleLogo data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1250">
+                <CircleLogo>
                     <img src={express} alt='express'/> <p>Express</p> 
                 </CircleLogo>
-                <CircleLogo data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1500">
+                <CircleLogo>
                     <img src={react} alt='React' /> <p>React</p>
                 </CircleLogo>
-                <CircleLogo data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1750">
+                <CircleLogo>
                     <img src={node} alt='NodeJs'/> <p>NodeJs</p>
                 </CircleLogo>
             </StackContainer>
-        </Subcontainer>
-        <Subcontainer>
              <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1800">Other Skills</h2>
                 <StackContainer>
                     <CircleLogo data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="1800">

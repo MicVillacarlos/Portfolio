@@ -1,8 +1,8 @@
-import { Container, Slider, SliderTrack, ImageContainer } from './style';
+import { Container } from './style';
 import HandGif from '../../assets/hand_intro.gif';
 import ShoesGif from '../../assets/shoes.gif';
-import curve from '../../assets/curve_line.svg';
 import { useState } from "react";
+import { Curly } from '../Curly'
 
 export const Intro = () =>{
 const [isHand, setIsHand] = useState(true)
@@ -21,25 +21,7 @@ const introClick = ()=>{
                         }
                     </button>
                 </div>
-                <Slider>
-                    <SliderTrack>
-                        <ImageContainer>
-                            <img src={curve} alt="curve line" />
-                        </ImageContainer>
-                        <ImageContainer>
-                            <img src={curve} alt="curve line" />
-                        </ImageContainer>
-                        <ImageContainer>
-                            <img src={curve} alt="curve line" />
-                        </ImageContainer>
-                        <ImageContainer>
-                            <img src={curve} alt="curve line" />
-                        </ImageContainer>
-                        <ImageContainer>
-                            <img src={curve} alt="curve line" />
-                        </ImageContainer>
-                    </SliderTrack>
-                </Slider>
+            <Curly/>
             </Container>
     )
 }

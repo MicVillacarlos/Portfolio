@@ -1,7 +1,7 @@
-import { Container,Form,TitleAndButtonContainer,ImageContainer,SliderSection,Slider,SliderTrack} from './style'
+import { Container,Form,TitleAndButtonContainer} from './style'
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
-import curve from '../../assets/curve_line.svg'
+import { Curly } from '../Curly'
 
 
 export const Contact = () => {
@@ -34,27 +34,7 @@ const [message,setMessage] = useState('')
 
   return (
     <div>
-      <SliderSection>
-        <Slider>
-            <SliderTrack>
-                <ImageContainer>
-                    <img src={curve} alt="curve line" />
-                </ImageContainer>
-                <ImageContainer>
-                    <img src={curve} alt="curve line" />
-                </ImageContainer>
-                <ImageContainer>
-                    <img src={curve} alt="curve line" />
-                </ImageContainer>
-                <ImageContainer>
-                    <img src={curve} alt="curve line" />
-                </ImageContainer>
-                <ImageContainer>
-                    <img src={curve} alt="curve line" />
-                </ImageContainer>
-            </SliderTrack>
-        </Slider>
-      </SliderSection>
+      <Curly/>
       <Container>
         <div data-aos="zoom-in-up" id='contact'>
           <Form onSubmit={onSubmit}>

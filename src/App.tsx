@@ -1,12 +1,6 @@
 import { GLobalStyle } from "./style";
 import { ThemeProvider } from "styled-components"
-import { Navbar } from "./components/Navbar"
-import { Intro } from './components/Intro'
-import { Bio } from './components/Bio'
-import { Stack } from './components/Stack'
-import { Footer } from "./components/Footer"
-import { Contact } from "./components/Contact"
-import { Works } from "./components/Works"
+import { Page1 } from "./components/Page"
 import defaultTheme from './theme/default'
 
 function App() {
@@ -14,13 +8,7 @@ function App() {
     <div>
       <GLobalStyle/>
         <ThemeProvider theme={defaultTheme}>
-            <Navbar/>
-            <Intro/>
-            <Bio/>
-            <Stack/>
-            <Works/>
-            <Contact/>
-            <Footer/>
+          <Page1/>
         </ThemeProvider>
     </div>
   );

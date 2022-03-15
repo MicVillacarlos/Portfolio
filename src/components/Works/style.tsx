@@ -7,6 +7,7 @@ export const ContainerCard = styled.div`
     flex-wrap: wrap;
     color:yellow;
     gap:1em;
+    padding:1em;
     p{
         color:yellow
     }
