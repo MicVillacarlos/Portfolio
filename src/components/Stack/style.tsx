@@ -68,7 +68,7 @@ export const CircleLogo = styled.div`
             width:3em;
         }
         p{
-            font-size: 1em;
+            font-size: 0.6em;
         }
     }
 
