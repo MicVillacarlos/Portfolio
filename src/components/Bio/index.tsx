@@ -4,7 +4,7 @@ import curve from '../../assets/curve_line.svg'
 
 export const Bio = () =>{
     return(
-        <div>
+        <div id='about'>
         <Container>
             <BioTextContainer >
             <h1 data-aos="fade-right" data-aos-duration="1000">He makes Websites 😁</h1> <br/>

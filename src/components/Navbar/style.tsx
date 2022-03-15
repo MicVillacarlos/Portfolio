@@ -34,5 +34,9 @@ export const NavbarItem = styled.p`
 export const LogoPic = styled.div`
     img{
         width: 50px;
+
+        :hover{
+            cursor: pointer;
+        }
     }
 `

@@ -3,6 +3,7 @@ import { Bio } from '../components/Bio'
 import { Stack } from '../components/Stack'
 import { Footer } from "../components/Footer"
 import { Contact } from "../components/Contact"
+import { Works } from "../components/Works"
 
 const First = () => {
   return (
@@ -10,6 +11,7 @@ const First = () => {
           <Intro/>
           <Bio/>
           <Stack/>
+          <Works/>
           <Contact/>
           <Footer/>
       </div>

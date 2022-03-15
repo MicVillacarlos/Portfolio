@@ -52,7 +52,7 @@ export const CircleLogo = styled.div`
     align-items: center;
 
     img{
-        width:5em;
+        width:4.5em;
     }
     @media (max-width:768px) {  
         img{

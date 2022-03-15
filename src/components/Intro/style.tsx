@@ -8,18 +8,15 @@ export const Container = styled.div`
     height:100vh;
     overflow:hidden;
     margin: auto; 
-
+    :hover{
+        cursor: pointer;
+    }
     button{
         border:0px;
         padding:0;
     }
     img{
         width:350px;
-    }
-    &:hover{
-        button{
-            cursor: pointer;
-        }
     }
     &:active{
         img{

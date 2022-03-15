@@ -11,10 +11,9 @@ function App() {
       <GLobalStyle/>
         <ThemeProvider theme={defaultTheme}>
             <Navbar/>
-                <Routes>
-                  <Route path='/' element={<First/>} />
-                  <Route path='/works' />
-                </Routes>
+              <Routes>
+                <Route path='/' element={<First/>} />
+              </Routes>
         </ThemeProvider>
     </BrowserRouter>
   );
