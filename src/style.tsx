@@ -6,5 +6,6 @@ export const GLobalStyle = createGlobalStyle`
         padding: 0;
         background-color: #000000;
         overflow-x:visible;
+        cursor:pointer;
     }
 `
