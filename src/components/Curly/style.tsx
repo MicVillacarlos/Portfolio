@@ -8,7 +8,8 @@ export const Container = styled.div`
 `
 
 export const Slider = styled.div`
-    height: 12.5rem;
+    /* height: 12.5rem; */
+    height:200px;
     width: 80vw;
     display: flex;
     align-items: center;
@@ -24,6 +25,7 @@ export const scroll = keyframes`
 export const SliderTrack = styled.div`
     display:flex;
     align-items: center;
+    width:calc(400px*4);
     background-color: transparent;
     animation: ${scroll} 6s linear infinite
 `
