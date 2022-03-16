@@ -8,7 +8,7 @@ export const Container = styled.div`
 `
 
 export const Slider = styled.div`
-    height: 200px;
+    height: 12.5rem;
     width: 80vw;
     display: flex;
     align-items: center;
@@ -33,6 +33,10 @@ export const ImageContainer = styled.div`
     padding:0;
     display: flex;
     align-items: center;
+/* 
+    img{
+        height:200px;
+    } */
 
     p{
         color: white
