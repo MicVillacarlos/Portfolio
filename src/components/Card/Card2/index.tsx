@@ -25,7 +25,7 @@ const click = () => {
               <b>Tech Stack:</b><br/>
                 MongoDB, Mongoose, Express, React, NodeJs, Typescript
                 <br/><br/>
-                Developed a client-server model application. Created the overall direction and design of the project.
+                A simple todo app that has a separate client and server app with basic CRUD features communicated via API.
                 <br/><br/>
                 Github: https://github.com/MicVillacarlos/ToDoList.git
               </p>

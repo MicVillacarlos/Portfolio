@@ -24,7 +24,7 @@ const click = () => {
               <p><br/>
               <b>Tech Stack:</b><br/>
                 HTML, CSS, Javascript, Bootstrap<br/><br/>
-                Basketball themed functioning Calculator. Utilized Adobe Illustrator to create images on the buttons<br/><br/>
+                A Basketball themed functioning Calculator using Javascript<br/><br/>
                 Github: https://github.com/MicVillacarlos/JsCalculator.git
               </p>
           </div>

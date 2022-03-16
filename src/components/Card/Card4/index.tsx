@@ -24,8 +24,8 @@ const click = () => {
               <p><br/>
               <b>Tech Stack:</b><br/>
                 React, Typescript<br/><br/>
-                A simple Pokedex app which you can set some post to hidden. Implemented form-validation and utilized react hooks.<br/><br/>
-                Github: https://github.com/MicVillacarlos/intro-to-react.git
+                A Pokedex app  that adds a pokemon on a list where the user can set it to hidden or delete it.<br/><br/>
+                Github: https://github.com/MicVillacarlos/PokedexReact.git
               </p>
           </div>
         : null}

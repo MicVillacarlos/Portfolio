@@ -7,13 +7,14 @@ export const Container = styled.div`
     justify-content: center;
     height:100vh;
     margin: auto;
-    
-    :hover{
-        cursor: pointer;
-    }
+
     button{
         border:0px;
         padding:0;
+        
+        &:hover{
+        cursor: pointer;
+    }
     }
     img{
         width:350px;

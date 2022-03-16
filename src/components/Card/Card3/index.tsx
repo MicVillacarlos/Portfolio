@@ -24,8 +24,7 @@ const click = () => {
               <p><br/>
               <b>Tech Stack:</b><br/>
                 React, Typescript<br/><br/>
-                Weather-app utilizing the AccuWeather API. You can check the weather 
-                information of the given cities for the to current and upcomimng 4 days. <br/><br/>
+                A simple weather App that gives weather information on the current and upcoming 4 days of the given cities. <br/><br/>
                 Github: https://github.com/MicVillacarlos/weather-app.git
               </p>
           </div>
