@@ -27,7 +27,7 @@ export const Form = styled.form`
     border-radius: 30px;
     padding: 2em;
     color: ${(props)=>props.theme.color.primary};
-    width: 30vw;
+    min-width: 45vw;
     font-family: ${(props)=>props.theme.font.secondary};
     h3{
         font-family: ${(props)=>props.theme.font.primary};

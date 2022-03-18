@@ -7,11 +7,13 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     gap:5em;
+    margin-bottom: 5em;
 
     @media (max-width: 768px) {
         flex-direction:column;
         text-align:center;
         padding: 3em;
+        margin-bottom: 0;
     }
     @media (max-width: 375px) {
         padding: 1em;
@@ -83,18 +85,12 @@ export const BioImage = styled.div`
 export const InstagramContainer = styled.div`
     display:flex;
     flex-direction: column;
-`
-export const Instagram = styled.div`
-    background-color:transparent;
-        a{ 
-            text-decoration: none;
-            color: #f4bd0b;
-        }
-
-        transition: transform 1s;
-        &:hover{
-            text-shadow:0px 1px 2px white;
-            transform: translateY(-25%);
-            font-size: 1.5;
-        }
+    a{ 
+        text-decoration: none;
+        color: #f4bd0b;
+    &:hover{
+        text-shadow:0px 1px 2px white;
+        font-size: 1.5;
+    }
+}
 `

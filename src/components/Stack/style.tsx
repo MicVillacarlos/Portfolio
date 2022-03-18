@@ -5,19 +5,16 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:80vh;
-    min-height:60vh;
-
-    @media (max-width: 425px) {
-        flex-direction: column;
-    }
+    padding: 0 9em 0 9em;
 `
+export const StackContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:3em;
+    gap: 2em;
 
-export const Subcontainer = styled.div`
-    height:40vh;
-    padding-left: 2em;
-    padding-right: 2em;
-    text-align: center;
     h2{
         color:transparent;
         -webkit-text-stroke-width: 1px;
@@ -31,31 +28,32 @@ export const Subcontainer = styled.div`
         }
     }
 `
-export const StackContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-    align-items: center;
-    gap:2em;
-    margin:0;
-    
-    @media (max-width: 768px) {
-        gap: 1em;
-    }
+
+export const LogosContainer = styled.div`
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap: 3em;
 `
 
 export const CircleLogo = styled.div`
     font-family: 'Gruppo', cursive;
     color: #f4bd0b;
-    margin: 2em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     img{
         width:4.5em;
     }
-    @media (max-width: 768px) {  
+
+    p{
+        font-size: 1.2em;
+    }
+
+    /* @media (max-width: 768px) {  
         img{
             width:3.5em;
 
@@ -71,11 +69,6 @@ export const CircleLogo = styled.div`
         p{
             font-size: 0.6em;
         }
-    }
+    } */
 
-`
-export const ClickHere = styled.div`
-    font-family: 'Gruppo', cursive;
-    text-align: center;
-    color: #f4bd0b;
 `
