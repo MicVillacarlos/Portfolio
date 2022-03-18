@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height:60vh;
-    padding: 3em;
+    height:auto;
+    padding-left: 8em;
+    padding-right: 8em;
     display: flex;
     align-items: center;
     gap:5em;
@@ -10,7 +11,10 @@ export const Container = styled.div`
     @media (max-width: 768px) {
         flex-direction:column;
         text-align:center;
-        line-height: 20px;
+        padding: 3em;
+    }
+    @media (max-width: 375px) {
+        padding: 1em;
     }
 `
 
@@ -19,12 +23,12 @@ export const BioTextContainer = styled.div`
         color: #f4bd0b;
         line-height: 1.2em;
         font-family: 'Gruppo', cursive;
-        text-align:justify;
+        text-align:left;
         font-size: 1.5em;
     }
     h1{
         color:transparent;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 1.5px;
         -webkit-text-stroke-color: #f4bd0b;
         font-family: 'Syncopate',
         sans-serif;
@@ -33,16 +37,19 @@ export const BioTextContainer = styled.div`
         margin: auto;
         width: 80%;
             p{
-                font-size: medium;
                 text-align: justify;
             }
             h1{
-                display: none;
+                line-height:1em;
+                text-align: justify
             } 
         }
-        @media (max-width: 320px) {
+        @media (max-width: 375px) {
             p{
-                font-size: small
+                font-size: 1em
+            }
+            h1{
+                font-size:1.5em;
             }
         }
     &:hover{
@@ -61,19 +68,13 @@ export const BioImage = styled.div`
     align-items: top;
     
     img{
-        width:280px;
-        height:280px;
+        width:300px;
+        height:300px;
     }
     @media (max-width: 768px) {    
         margin:0; 
         justify-content: right;
         align-items: center;
-        img{
-            width:150px;
-            height:150px;
-        }
-    }
-    @media (max-width: 425px) {    
         img{
             display:none
         }

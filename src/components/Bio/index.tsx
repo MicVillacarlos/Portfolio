@@ -6,7 +6,7 @@ export const Bio = () =>{
         <div id='about'>
         <Container>
             <BioTextContainer >
-            <h1 data-aos="fade-right" data-aos-duration="1000">He makes Websites 😁</h1> <br/>
+            <h1 data-aos="fade-right" data-aos-duration="1000">Michael Villacarlos makes Websites</h1> <br/>
                 <p  data-aos="fade-right" data-aos-duration="3000">
                     Mic is trying his best to keep his life together 🤞🤔, that's why he is always on his laptop, practicing his skills in coding and design.
                     <br/>

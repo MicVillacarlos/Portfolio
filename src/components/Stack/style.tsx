@@ -4,15 +4,17 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height:80vh;
+    min-height:60vh;
 
-    @media (max-width: 375px) {
-        display:none;
+    @media (max-width: 425px) {
+        flex-direction: column;
     }
 `
 
 export const Subcontainer = styled.div`
-    height:45vh;
+    height:40vh;
     padding-left: 2em;
     padding-right: 2em;
     text-align: center;
@@ -49,7 +51,6 @@ export const CircleLogo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    
 
     img{
         width:4.5em;
@@ -57,7 +58,7 @@ export const CircleLogo = styled.div`
     @media (max-width: 768px) {  
         img{
             width:3.5em;
-            padding:0;
+
         }
         p{
             font-size: 1em;

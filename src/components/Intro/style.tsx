@@ -29,7 +29,8 @@ export const Container = styled.div`
         height:100vh;
         img{
             width: 280px;
-        }        
+        }
+        height:80vh;        
     }
     @media (max-width: 375px){
         img{

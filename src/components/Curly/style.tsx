@@ -16,25 +16,8 @@ export const Slider = styled.div`
     background-color:transparent;
     position: relative;
 
-    &:before, &:after{
-        position: absolute;
-        top: 0;
-        height:100%;
-        width:5rem;
-        z-index:1;
-        content:'';
-    }
-
-    &:before{
-        left: 0;
-        background: rgb(255,255,255);
-        background: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); 
-    }
-
-    &:after{
-        right: 0;
-        background: rgb(255,255,255);
-        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); 
+    @media (max-width: 425px){
+        height:150px;
     }
 `
 

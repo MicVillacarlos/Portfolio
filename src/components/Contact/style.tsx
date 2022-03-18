@@ -3,11 +3,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     height: 40vh;
-    padding: 6em;
+    padding: 3em;
     display:flex;
     align-items: center;
     justify-content: center;
-    
+    @media (max-width: 768px) {
+        padding:3em;
+    }
 `
 export const TitleAndButtonContainer = styled.div`
     display: flex;
