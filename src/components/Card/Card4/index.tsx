@@ -25,7 +25,7 @@ const click = () => {
               <b>Tech Stack:</b><br/>
                 React, Typescript<br/><br/>
                 A Pokedex app  that adds a pokemon on a list where the user can set it to hidden or delete it.<br/><br/>
-                Github: https://github.com/MicVillacarlos/PokedexReact.git
+                Github: <a href='https://github.com/MicVillacarlos/PokedexReact.git' target='_blank'>Click here</a> 
               </p>
           </div>
         : null}

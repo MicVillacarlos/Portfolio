@@ -25,7 +25,7 @@ const click = () => {
               <b>Tech Stack:</b><br/>
                 HTML, CSS, Javascript, Bootstrap<br/><br/>
                 A Basketball themed functioning Calculator using Javascript<br/><br/>
-                Github: https://github.com/MicVillacarlos/JsCalculator.git
+                Github: <a href='https://github.com/MicVillacarlos/JsCalculator.git' target='_blank'>Click here</a>
               </p>
           </div>
         : null}

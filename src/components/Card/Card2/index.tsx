@@ -27,7 +27,7 @@ const click = () => {
                 <br/><br/>
                 A simple todo app that has a separate client and server app with basic CRUD features communicated via API.
                 <br/><br/>
-                Github: https://github.com/MicVillacarlos/ToDoList.git
+                Github: <a href='https://github.com/MicVillacarlos/ToDoList.git' target='_blank'>Click here</a> 
               </p>
           </div>
         : null}

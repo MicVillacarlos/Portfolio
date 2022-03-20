@@ -48,7 +48,8 @@ export const BioTextContainer = styled.div`
         }
         @media (max-width: 375px) {
             p{
-                font-size: 1em
+                font-size: 1.2em;
+                font-weight: 700;
             }
             h1{
                 font-size:1.5em;

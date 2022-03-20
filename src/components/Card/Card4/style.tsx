@@ -35,6 +35,13 @@ export const NewCard = styled(Card)`
         p{
             color: ${(props)=>props.theme.color.primary};
         }
+        a{
+            text-decoration: none;
+            color: ${(props)=>props.theme.color.primary};
+            &:hover{
+                color:white;
+            }
+        }
     }
 `
 

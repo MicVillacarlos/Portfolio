@@ -25,7 +25,7 @@ const click = () => {
               <b>Tech Stack:</b><br/>
               HTML, CSS, Javascript, Bootstrap<br/><br/>
                 A clock and timer application that renders its number using the HTML Canvas element <br/><br/>
-                Github: https://github.com/MicVillacarlos/Canvas-ClockAndTimer.git
+                Github: <a href='https://github.com/MicVillacarlos/Canvas-ClockAndTimer.git' target="_blank">Click here</a>
               </p>
           </div>
         : null}
