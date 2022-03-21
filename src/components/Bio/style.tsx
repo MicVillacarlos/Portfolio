@@ -43,7 +43,6 @@ export const BioTextContainer = styled.div`
             }
             h1{
                 line-height:1em;
-                text-align: justify
             } 
         }
         @media (max-width: 375px) {

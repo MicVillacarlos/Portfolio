@@ -12,13 +12,11 @@ const click = () => {
 }
 
   return (
-    <NewCard
+    <NewCard 
+      onClick={click}
       cover={<img src={toDo} alt='toDo' />}
     >    
       <Meta title={<h3>To Do App</h3>}/>
-      <button onClick={click}>
-        {isClick ? "See Less" : "See More"}
-      </button> 
         {isClick ? 
           <div>
               <p><br/>
@@ -27,7 +25,7 @@ const click = () => {
                 <br/><br/>
                 A simple todo app that has a separate client and server app with basic CRUD features communicated via API.
                 <br/><br/>
-                Github: <a href='https://github.com/MicVillacarlos/ToDoList.git' target='_blank'>Click here</a> 
+                Github: <a href='https://github.com/MicVillacarlos/ToDoList.git' target='_blank'  rel="noreferrer">Click here</a> 
               </p>
           </div>
         : null}

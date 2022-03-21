@@ -12,13 +12,11 @@ const click = () => {
 }
 
   return (
-    <NewCard
+    <NewCard 
+      onClick={click}
       cover={<img src={flightScheduler} alt='flightScheduler' />}
     >    
       <Meta title={<h3>Flight Scheduler</h3>}/>
-      <button onClick={click}>
-        {isClick ? "See Less" : "See More"}
-      </button> 
         {isClick ? 
           <div>
               <br/>

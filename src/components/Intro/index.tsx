@@ -1,4 +1,4 @@
-import { Container } from './style';
+import { Container,H1Container } from './style';
 import HandGif from '../../assets/hand_intro.gif';
 import ShoesGif from '../../assets/shoes.gif';
 import { useState } from "react";
@@ -12,16 +12,24 @@ const introClick = ()=>{
 }
 
     return(
-            <Container>
-                <div data-aos="fade-up" data-aos-duration="2000">
+        <div>
+            <Container data-aos="fade-up" data-aos-duration="2000">
+                <div>
                     <button onClick={introClick}>
                         {isHand ? 
-                            <img src={HandGif} alt="waving-hand-gif" />  : 
-                            <img src={ShoesGif} alt="waving-shoes-gif" />
+                            <img src={HandGif} alt="waving-hand-gif"/>  : 
+                            <img src={ShoesGif} alt="waving-shoes-gif"/>
                         }
                     </button>
                 </div>
-            <Curly/>
+                <H1Container>
+                    <h1>
+                        HellO,<br/> NICE TO MEET YOU<br/> 
+                    </h1>
+                </H1Container>
             </Container>
+            <Curly/>
+        </div>
+            
     )
 }

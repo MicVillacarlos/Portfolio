@@ -12,20 +12,18 @@ const click = () => {
 }
 
   return (
-    <NewCard
+    <NewCard 
+      onClick={click}
       cover={<img src={basketballCalc} alt='basketballCalc' />}
     >    
       <Meta title={<h3>JS Calculator</h3>}/>
-      <button onClick={click}>
-        {isClick ? "See Less" : "See More"}
-      </button> 
         {isClick ? 
           <div>
               <p><br/>
               <b>Tech Stack:</b><br/>
                 HTML, CSS, Javascript, Bootstrap<br/><br/>
                 A Basketball themed functioning Calculator using Javascript<br/><br/>
-                Github: <a href='https://github.com/MicVillacarlos/JsCalculator.git' target='_blank'>Click here</a>
+                Github: <a href='https://github.com/MicVillacarlos/JsCalculator.git' target='_blank' rel="noreferrer">Click here</a>
               </p>
           </div>
         : null}

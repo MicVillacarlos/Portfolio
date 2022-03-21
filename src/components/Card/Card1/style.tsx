@@ -14,13 +14,8 @@ export const NewCard = styled(Card)`
         transition: transform 2s;
 
         :hover{
-                transform: translateY(-4%);
-
-                button{
-                    transform: translateY(-5%);
-                    text-shadow:0px 1px 2px white;
-                    cursor: pointer;
-                }
+            transform: translateY(-4%);
+            cursor: pointer;
             }
         img{
             max-width: 100%;

@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: column;
+    gap:3em;
+    padding-left:10em;
+    padding-right:10em;
     align-items: center;
     justify-content: center;
-    height:100vh;
-    margin: auto;
+    height:70vh;
     color: ${(props)=>props.theme.color.primary};
+    
     h1{
         color:transparent;
         -webkit-text-stroke-width: 1.5px;
@@ -28,17 +30,21 @@ export const Container = styled.div`
         width:350px;
     }
     @media (max-width: 768px){
-        height:80vh;
+        height:60vh;
         img{
             width: 320px;
         }
     }
     @media (max-width: 425px){
         height:100vh;
+        flex-direction: column;
+        height:80vh;   
         img{
             width: 280px;
-        }
-        height:80vh;        
+        } 
+        h1{
+            display:none;
+        }     
     }
     @media (max-width: 375px){
         img{
@@ -49,5 +55,23 @@ export const Container = styled.div`
         img{
             width: 210px;
         }
+    }
+`
+
+export const H1Container = styled.div`
+    color:transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #f4bd0b;
+    font-family: 'Syncopate',
+    sans-serif;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+
+    p{
+        color: #f4bd0b;
+        font-size:0.8em;
     }
 `
