@@ -8,6 +8,7 @@ export const Contact = () => {
 const [senderEmail,setSenderEmail] = useState('')
 const [subject, setSubject] = useState('')
 const [message,setMessage] = useState('')
+const [isSent,setSent] = useState(false)
 
 
   const onSubmit =(e:React.FormEvent)=>{
@@ -27,6 +28,7 @@ const [message,setMessage] = useState('')
          console.log('FAILED...', error);
       });
     
+    setSent(true)
     setSenderEmail('');
     setSubject('');
     setMessage('');
@@ -41,20 +43,20 @@ const [message,setMessage] = useState('')
             <TitleAndButtonContainer>
               <h3>Don't be shy, say Hi! 😀</h3>
             </TitleAndButtonContainer>
-            <label>Your Email</label>
-              <input 
+              <label>Your Email</label>
+                <input 
                 value={senderEmail} 
                 onChange={(e)=>setSenderEmail(e.target.value)}/>
-            <label>Subject</label>
-              <input 
+              <label>Subject</label>
+                <input 
                 value={subject} 
                 onChange={(e)=>setSubject(e.target.value)}/>
-            <label>Message</label>
-              <textarea 
+              <label>Message</label>
+                <textarea 
                 value={message} 
                 onChange={(e)=>setMessage(e.target.value)}/>
             <TitleAndButtonContainer>
-              <button>Send</button>
+              {isSent? "Message sent " :<button>Send</button>  }
             </TitleAndButtonContainer>
           </Form>
         </div>

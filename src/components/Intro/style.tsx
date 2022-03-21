@@ -7,6 +7,14 @@ export const Container = styled.div`
     justify-content: center;
     height:100vh;
     margin: auto;
+    color: ${(props)=>props.theme.color.primary};
+    h1{
+        color:transparent;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: #f4bd0b;
+        font-family: 'Syncopate',
+        sans-serif;
+    }
 
     button{
         border:0px;
