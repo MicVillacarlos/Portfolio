@@ -21,7 +21,7 @@ export const Navbar= () => {
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <a href="https://drive.google.com/file/d/1AhkDkKepp01c523xG64ywyXTgdhyj-bX/view?usp=sharing" target="_blank" rel="noreferrer"> 
+                    <a href="https://drive.google.com/file/d/1kh-grBqlk1zZGnQwXsREFz-yxKGsqjja/view?usp=sharing" target="_blank" rel="noreferrer"> 
                     RESUME 
                     </a>
                 </NavbarItem>
