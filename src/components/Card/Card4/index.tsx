@@ -22,7 +22,8 @@ const click = () => {
               <b>Tech Stack:</b><br/>
                 React, Typescript<br/><br/>
                 A Pokedex app  that adds a pokemon on a list where the user can set it to hidden or delete it.<br/><br/>
-                Github: <a href='https://github.com/MicVillacarlos/PokedexReact.git' target='_blank'  rel="noreferrer">Click here</a> 
+                Github: <a href='https://github.com/MicVillacarlos/PokedexReact.git' target='_blank'  rel="noreferrer">Click here</a> <br/>
+                Link : <a href='https://reactapp-pokedex.netlify.app/' target='_blank'  rel="noreferrer"> https://reactapp-pokedex.netlify.app/</a> 
               </p>
           </div>
         : null}

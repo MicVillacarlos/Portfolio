@@ -24,7 +24,7 @@ const introClick = ()=>{
                 </div>
                 <H1Container>
                     <h1>
-                        HellO,<br/> NICE TO MEET YOU<br/> 
+                        hello,<br/> NICE TO MEET YOU!<br/> 
                     </h1>
                 </H1Container>
             </Container>

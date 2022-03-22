@@ -23,7 +23,10 @@ const click = () => {
               <b>Tech Stack:</b><br/>
                 React, Typescript<br/><br/>
                 A simple weather App that gives weather information on the current and upcoming 4 days of the given cities. <br/><br/>
-                Github: <a href="https://github.com/MicVillacarlos/weather-app.git" target="_blank"  rel="noreferrer">Click here</a>
+                Github: 
+                <a href="https://github.com/MicVillacarlos/weather-app.git" target="_blank"  rel="noreferrer"> Click here</a><br/>
+                Link:  
+                <a href="https://weather-app-react-mv.netlify.app/" target="_blank"  rel="noreferrer"> https://weather-app-react-mv.netlify.app/</a>
               </p>
           </div>
         : null}

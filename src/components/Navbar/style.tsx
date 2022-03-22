@@ -30,6 +30,10 @@ export const NavbarItem = styled.p`
         text-shadow:0px 1px 2px white;
         transform: translateY(-30%);
     }
+    a{
+        text-decoration: none;
+        color: ${(props)=>props.theme.color.primary};
+    }
 `
 
 export const LogoPic = styled.div`
