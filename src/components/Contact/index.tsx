@@ -56,7 +56,7 @@ const [isSent,setSent] = useState(false)
                 value={message} 
                 onChange={(e)=>setMessage(e.target.value)}/>
             <TitleAndButtonContainer>
-              {isSent? "Message sent " :<button>Send</button>  }
+              {isSent? "Message sent " : <button>Send</button>}
             </TitleAndButtonContainer>
           </Form>
         </div>
