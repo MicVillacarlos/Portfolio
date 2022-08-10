@@ -1,6 +1,5 @@
 import { Container, BioTextContainer, BioImage, InstagramContainer} from './style'
 import BioPic from '../../assets/aboutpic.png'
-// import { Curly } from '../Curly'
 
 export const Bio = () =>{
     return(
@@ -11,7 +10,7 @@ export const Bio = () =>{
             <p  data-aos="fade-right" data-aos-duration="3000">
             I'm a passionate developer based in Cebu City, Philippines 🇵🇭. I consistently aim to achieve the best and most efficient result on each project that I tackle.
             <br/><br/>
-            Aside from coding, I am also passionate about music. I love creating music with my band 🎹. I also enjoy outdoor activities such as cycling, running and hiking. 
+            Aside from coding, I am also passionate about music 🎹. I also enjoy outdoor activities such as cycling, running and hiking. 
             </p>
             <br/>
             <InstagramContainer data-aos="fade-right" data-aos-duration="3000">
