@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.4462f512.js",
-    "static/js/787.11dabcd4.chunk.js": "/Portfolio/static/js/787.11dabcd4.chunk.js",
-    "static/media/aboutpic.png": "/Portfolio/static/media/aboutpic.01aa9dfad3514c11fe67.png",
-    "static/media/logopic.png": "/Portfolio/static/media/logopic.b5d755f7ae7994b743b4.png",
-    "static/media/shoes.gif": "/Portfolio/static/media/shoes.a787d8fc55da10d820f5.gif",
-    "static/media/pokedex.png": "/Portfolio/static/media/pokedex.ba250afd1f47f264de3f.png",
-    "static/media/hand_intro.gif": "/Portfolio/static/media/hand_intro.bd88d2920f037a7a2b00.gif",
-    "static/media/flightScheduler.png": "/Portfolio/static/media/flightScheduler.3facceb6439d5f546c2d.png",
-    "static/media/basketbalCalc.png": "/Portfolio/static/media/basketbalCalc.2676fcc075d48f838ba2.png",
-    "static/media/weather.png": "/Portfolio/static/media/weather.8cc3100ed37934c919a5.png",
-    "static/media/toDo.png": "/Portfolio/static/media/toDo.57e087d7caff3b348b74.png",
-    "static/media/react.svg": "/Portfolio/static/media/react.1d051a43a7ecfcd07550ddf99f204959.svg",
-    "static/media/node_js.svg": "/Portfolio/static/media/node_js.9b75005f0017e104867e27103a39881f.svg",
-    "static/media/photoshop.svg": "/Portfolio/static/media/photoshop.3b3332ac0d4e1c7fdc6fe9f391c5d6ad.svg",
-    "static/media/express.svg": "/Portfolio/static/media/express.0301afb6a7e6c98c42fffd8a653d6089.svg",
-    "static/media/illustrator.svg": "/Portfolio/static/media/illustrator.4ea24e1ab269cad46c51ab8d67ab3dd7.svg",
-    "index.html": "/Portfolio/index.html",
-    "static/media/mongoDb.svg": "/Portfolio/static/media/mongoDb.20b5465204c5275b6521324c6561c3ff.svg",
-    "static/media/curve_line.svg": "/Portfolio/static/media/curve_line.a84564c85b77eb857434efd2469c1b12.svg",
-    "main.4462f512.js.map": "/Portfolio/static/js/main.4462f512.js.map",
-    "787.11dabcd4.chunk.js.map": "/Portfolio/static/js/787.11dabcd4.chunk.js.map"
+    "main.js": "/static/js/main.24afc119.js",
+    "static/js/787.11dabcd4.chunk.js": "/static/js/787.11dabcd4.chunk.js",
+    "static/media/aboutpic.png": "/static/media/aboutpic.01aa9dfad3514c11fe67.png",
+    "static/media/logopic.png": "/static/media/logopic.b5d755f7ae7994b743b4.png",
+    "static/media/shoes.gif": "/static/media/shoes.a787d8fc55da10d820f5.gif",
+    "static/media/pokedex.png": "/static/media/pokedex.ba250afd1f47f264de3f.png",
+    "static/media/hand_intro.gif": "/static/media/hand_intro.bd88d2920f037a7a2b00.gif",
+    "static/media/flightScheduler.png": "/static/media/flightScheduler.3facceb6439d5f546c2d.png",
+    "static/media/basketbalCalc.png": "/static/media/basketbalCalc.2676fcc075d48f838ba2.png",
+    "static/media/weather.png": "/static/media/weather.8cc3100ed37934c919a5.png",
+    "static/media/toDo.png": "/static/media/toDo.57e087d7caff3b348b74.png",
+    "static/media/react.svg": "/static/media/react.1d051a43a7ecfcd07550ddf99f204959.svg",
+    "static/media/node_js.svg": "/static/media/node_js.9b75005f0017e104867e27103a39881f.svg",
+    "static/media/photoshop.svg": "/static/media/photoshop.3b3332ac0d4e1c7fdc6fe9f391c5d6ad.svg",
+    "static/media/express.svg": "/static/media/express.0301afb6a7e6c98c42fffd8a653d6089.svg",
+    "static/media/illustrator.svg": "/static/media/illustrator.4ea24e1ab269cad46c51ab8d67ab3dd7.svg",
+    "index.html": "/index.html",
+    "static/media/mongoDb.svg": "/static/media/mongoDb.20b5465204c5275b6521324c6561c3ff.svg",
+    "static/media/curve_line.svg": "/static/media/curve_line.a84564c85b77eb857434efd2469c1b12.svg",
+    "main.24afc119.js.map": "/static/js/main.24afc119.js.map",
+    "787.11dabcd4.chunk.js.map": "/static/js/787.11dabcd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4462f512.js"
+    "static/js/main.24afc119.js"
   ]
 }
