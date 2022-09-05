@@ -1,4 +1,3 @@
-import React from 'react'
 import {Slider, SliderTrack, ImageContainer,Container } from './style';
 import curve from '../../assets/curve_line.svg'
 
