@@ -10,7 +10,7 @@ export const Works = () => {
     <div data-aos="fade-left" id='works'>
       <H2>
         <h2>
-          Skourse Bootcamp Projects
+          Bootcamp Projects
         </h2>
       </H2>
       <ContainerCard>
