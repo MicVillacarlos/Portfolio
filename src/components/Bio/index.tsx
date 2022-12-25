@@ -22,7 +22,6 @@ export const Bio = () =>{
                 <img data-aos="fade-left" data-aos-duration="9000" src={BioPic} alt="BioImage" />
             </BioImage>
         </Container>
-        {/* <Curly/> */}
         </div>
     )
 } 

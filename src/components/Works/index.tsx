@@ -10,7 +10,7 @@ export const Works = () => {
     <div data-aos="fade-left" id='works'>
       <H2>
         <h2>
-          Works & Projects
+          Skourse Bootcamp Projects
         </h2>
       </H2>
       <ContainerCard>
@@ -18,7 +18,7 @@ export const Works = () => {
         <Card2/>
         <Card3/>
         <Card4/>
-        <Card6/>
+        {/* <Card6/> */}
       </ContainerCard>  
     </div>
   )
