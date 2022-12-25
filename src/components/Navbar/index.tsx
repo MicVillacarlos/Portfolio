@@ -21,7 +21,7 @@ export const Navbar = () => {
         </NavbarItem>
         <NavbarItem>
           <a
-            href="https://drive.google.com/file/d/1VWXnR3AqR0XkkEAjHMlJ0g8pNwubfhRb/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1lgVfBnxgYXM-za0ozo-lCWe30Y5XuWNo?usp=share_link"
             target="_blank"
             rel="noreferrer"
           >
