@@ -69,6 +69,10 @@ export const Form = styled.form`
   }
 `;
 
-export const Error = styled.p`
-    color: #e45454
-`
+interface Props {
+  isSuccess: boolean;
+}
+
+export const Error = styled.p<Props>`
+  color: ${(props) => (!props.isSuccess ? "#e45454" : "#8dda3c")};
+`;

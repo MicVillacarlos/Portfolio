@@ -1,6 +1,6 @@
-import { Container, Form, TitleAndButtonContainer, Error } from "./style";
+import * as S from "./style";
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Curly } from "../Curly";
 
 export const Contact = () => {
@@ -8,10 +8,13 @@ export const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-  const [isSent, setSent] = useState(false);
+  const [isSent, setIsSent] = useState(false);
+  const [isHide, setIsHide] = useState(false);
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const regexExp =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/gi;
 
     let templateParams = {
       senderEmail: senderEmail,
@@ -19,8 +22,11 @@ export const Contact = () => {
       message: message,
     };
 
+    setIsHide(true);
     if (senderEmail === "") {
       setError("Email should not be Empty!");
+    } else if (!regexExp.test(senderEmail)) {
+      setError("Please enter a valid Email");
     } else if (subject === "") {
       setError("Subject should not be Empty!");
     } else if (message === "") {
@@ -36,28 +42,50 @@ export const Contact = () => {
         .then(
           function (response) {
             console.log("SUCCESS!", response.status, response.text);
-            setSent(true);
             setSenderEmail("");
             setSubject("");
             setMessage("");
-            setError('');
+            setIsSent(true);
+            setError("SUCCESS");
           },
           function (error) {
+            setError("ERROR Sending message");
             console.log("FAILED...", error);
           }
         );
     }
   };
 
+  useEffect(() => {
+    if (isSent) {
+      setTimeout(() => {
+        setIsSent(false);
+        setError("");
+      }, 4000);
+    }
+
+    if (error) {
+      setTimeout(() => {
+        setError("");
+      }, 4000);
+    }
+
+    if (isHide) {
+      setTimeout(() => {
+        setIsHide(false);
+      }, 3000);
+    }
+  }, [isSent, error, isHide]);
+
   return (
     <div>
       <Curly />
-      <Container>
+      <S.Container>
         <div data-aos="zoom-in-up" id="contact">
-          <Form onSubmit={onSubmit}>
-            <TitleAndButtonContainer>
+          <S.Form onSubmit={onSubmit}>
+            <S.TitleAndButtonContainer>
               <h3>Don't be shy, say Hi! 😀</h3>
-            </TitleAndButtonContainer>
+            </S.TitleAndButtonContainer>
             <label>Your Email</label>
             <input
               value={senderEmail}
@@ -74,14 +102,15 @@ export const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
             />
 
-            <Error>{error}</Error>
-
-            <TitleAndButtonContainer>
-              <button>Send</button>
-            </TitleAndButtonContainer>
-          </Form>
+            <S.Error isSuccess={isSent}>{error}</S.Error>
+            {!isHide && (
+              <S.TitleAndButtonContainer>
+                <button>Send</button>
+              </S.TitleAndButtonContainer>
+            )}
+          </S.Form>
         </div>
-      </Container>
+      </S.Container>
     </div>
   );
 };
