@@ -3,7 +3,7 @@ import KuhlWebsite from "../../assets/KuhlWebsite.png";
 
 export const WorkExperience = () => {
   return (
-    <S.WorkExperienceContainer>
+    <S.WorkExperienceContainer data-aos="fade-up-right">
       <S.H2>
         <h2> Work Projects</h2>
       </S.H2>
