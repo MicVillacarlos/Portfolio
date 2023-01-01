@@ -20,7 +20,7 @@ export const CardContainer = styled.div`
   gap: 0.5em;
   padding: 1em;
   justify-content: space-around;
-  width: 40%;
+  width: 45%;
   margin: 0 auto;
   p {
     font-family: ${(props) => props.theme.font.secondary};
