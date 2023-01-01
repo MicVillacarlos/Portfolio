@@ -6,18 +6,22 @@ export const AStyled = styled.a`
   color: inherit;
 `;
 
-export const Container = styled.div`
+export const WorkExperienceContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`;
+
+export const CardContainer = styled.div`
   border: 1px solid;
   border-radius: 10px;
   color: #f4bd0b;
   display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  padding: 2em;
-  margin-left: 9em;
-  margin-right: 9em;
-
+  gap: 0.5em;
+  padding: 1em;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
   p {
     font-family: ${(props) => props.theme.font.secondary};
   }
@@ -30,6 +34,35 @@ export const Container = styled.div`
     transform: translateY(-3.5%);
     cursor: pointer;
   }
+
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      text-align: center;
+    }
+    h4 {
+      text-align: center;
+    }
+  }
+`;
+
+export const StyledImage = styled.img`
+  height: 30%;
+  width: 30%;
+  border-radius: 5px;
+  @media (max-width: 1024px) {
+    height: 70%;
+    width: 70%;
+  }
+`;
+
+export const TextContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
 `;
 
 export const H2 = styled.div`
@@ -39,7 +72,6 @@ export const H2 = styled.div`
   -webkit-text-stroke-color: #f4bd0b;
   margin: 2em;
   display: flex;
-  align-items: center;
   justify-content: center;
   :hover {
     color: ${(props) => props.theme.color.primary};
