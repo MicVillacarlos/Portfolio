@@ -6,7 +6,7 @@ export const Footer = () => {
                 <a href='https://www.instagram.com/micodes/' target="_blank" rel="noopener noreferrer">
                     Instagram
                 </a>
-                <p>powered by Coffee ☕️ 2022</p>
+                <p>created with React 17 👨🏾‍💻</p>
                 <a href='https://www.linkedin.com/in/michael-villacarlos' target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>

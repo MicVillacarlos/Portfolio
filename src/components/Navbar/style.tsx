@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 1em;
+    padding: 1em 3em;
     display:flex;
     justify-content: space-between;
     align-items: center;
